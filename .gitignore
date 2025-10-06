@@ -1,0 +1,62 @@
+# Build artifacts
+bin/
+build/
+*.out
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Generated projects (for testing)
+test-*/
+example-*/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# CMake files (if used in future)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compile commands
+compile_commands.json
+
+# Core dumps
+core
+core.*
+
+# Package files
+*.tar.gz
+*.zip
+*.7z

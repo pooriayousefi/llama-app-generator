@@ -1,0 +1,72 @@
+llama-app-generator
+Copyright 2025 Pooria Yousefi
+https://github.com/pooriayousefi/llama-app-generator
+
+This product includes software developed by Pooria Yousefi.
+
+================================================================================
+NAMESPACE PROTECTION NOTICE
+================================================================================
+
+This project uses the namespace hierarchy:
+
+    pooriayousefi::llama::app
+
+This namespace structure is the signature and intellectual property of 
+Pooria Yousefi and MUST be preserved in all derivative works in accordance 
+with Section 4(c) and 4(d) of the Apache License 2.0.
+
+Specifically:
+- All classes, functions, and types defined in this project reside within
+  the pooriayousefi::llama::app namespace or its sub-namespaces.
+
+- You may NOT remove, modify, or replace this namespace in any derivative 
+  work or redistribution.
+
+- You may add your own code in separate namespaces, but the original
+  pooriayousefi::llama::app namespace must remain intact with all
+  original copyright notices.
+
+- Generated projects using llama-app-generator will also use this namespace
+  and must preserve it in accordance with the license.
+
+Rationale:
+The namespace serves as both a technical necessity (preventing name conflicts)
+and as attribution to the original author. Preserving it ensures proper credit
+and maintains the integrity of the codebase.
+
+Example Usage:
+    using namespace pooriayousefi::llama::app;
+    
+    LlamaClient client("http://localhost:8080");
+    RuntimeConfig config = RuntimeConfig::from_file("config.txt");
+
+For questions or permissions beyond this license, contact:
+Pooria Yousefi <pooriayousefi@aol.com>
+https://github.com/pooriayousefi
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+This project uses the following third-party libraries:
+
+1. nlohmann/json
+   - Copyright (c) 2013-2022 Niels Lohmann
+   - Licensed under MIT License
+   - https://github.com/nlohmann/json
+
+2. cpp-httplib
+   - Copyright (c) 2023 Yuji Hirose
+   - Licensed under MIT License
+   - https://github.com/yhirose/cpp-httplib
+
+3. llama.cpp (runtime dependency)
+   - Copyright (c) 2023 Georgi Gerganov
+   - Licensed under MIT License
+   - https://github.com/ggerganov/llama.cpp
+
+These libraries are not modified or redistributed with this project but are
+downloaded or referenced during project generation.
+
+================================================================================

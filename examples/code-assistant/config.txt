@@ -1,0 +1,4 @@
+~/llama.cpp/build-cpu/bin
+~/models/llama.cpp/bartowski-hunyuan-1.8b/bartowski_tencent_Hunyuan-1.8B-Instruct-GGUF_tencent_Hunyuan-1.8B-Instruct-Q4_K_M.gguf
+8080
+8081
