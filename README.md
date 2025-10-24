@@ -229,19 +229,6 @@ fetch('http://localhost:8081/api', {
 - **llama.cpp** pre-built binaries
 - **.gguf** model file
 
-## Namespace Protection
-
-All generated code uses the **pooriayousefi::llama::app** namespace.
-
-Per Apache License 2.0, this namespace MUST be preserved in derivative works. See the NOTICE file for details.
-
-### Why Namespace Protection?
-
-- **Attribution**: Ensures proper credit to the original author
-- **Legal**: Required by Apache 2.0 Section 4(c) and 4(d)
-- **Technical**: Prevents name conflicts
-- **Trademark**: Protects the signature of the project
-
 ## License
 
 Copyright 2025 Pooria Yousefi
